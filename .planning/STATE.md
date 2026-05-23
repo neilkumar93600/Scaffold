@@ -10,28 +10,28 @@ See: .planning/PROJECT.md (updated 2026-05-23)
 ## Current Position
 
 Phase: 1 of 11 (Foundation)
-Plan: 3 of 5 in current phase
+Plan: 4 of 5 in current phase
 Status: In progress
-Last activity: 2026-05-23 — Plan 01-03 complete (plan limits config + enforcePlanLimit function)
+Last activity: 2026-05-23 — Plan 01-04 complete (GitHub Actions CI pipeline with npm)
 
 Progress: [█░░░░░░░░░] 4%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 3
-- Average duration: 7 min
+- Total plans completed: 4
+- Average duration: 6 min
 - Total execution time: 0.4 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| 01-foundation | 3/5 | 23 min | 7 min |
+| 01-foundation | 4/5 | 24 min | 6 min |
 
 **Recent Trend:**
-- Last 5 plans: 01-01 (11 min), 01-02 (11 min), 01-03 (1 min)
-- Trend: improving
+- Last 5 plans: 01-01 (11 min), 01-02 (11 min), 01-03 (1 min), 01-04 (1 min)
+- Trend: stable
 
 *Updated after each plan completion*
 
@@ -53,6 +53,8 @@ Recent decisions affecting current work:
 - PlanSchema re-declared in plan-limits.ts (not imported from validations/) for Edge-safe import
 - null encodes unlimited across numeric resource limits; 0 means no-team for teamSeats
 - enforcePlanLimit accepts getCurrentCount callback so callers control the DB query
+- CI workflow uses npm (not pnpm) — actions/setup-node@v4 with npm cache, npm ci, npm run commands
+- Test step in CI uses npm test -- --run to pass --run flag through npm to Vitest (prevents watch mode)
 
 ### Pending Todos
 
@@ -65,5 +67,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-05-23
-Stopped at: Completed 01-03-PLAN.md (plan limits config + enforcePlanLimit function)
-Resume file: .planning/phases/01-foundation/01-04-PLAN.md
+Stopped at: Completed 01-04-PLAN.md (GitHub Actions CI pipeline with npm)
+Resume file: .planning/phases/01-foundation/01-05-PLAN.md

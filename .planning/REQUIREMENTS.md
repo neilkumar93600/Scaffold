@@ -95,7 +95,7 @@
 - [ ] **OPS-04**: Playwright E2E tests cover: signup → create stack → start playbook → complete step → upgrade plan
 - [ ] **OPS-05**: Vitest unit tests cover: manifest detection, plan limit enforcement, ZIP assembly logic
 - [ ] **OPS-06**: RLS policies tested per table (user cannot read another user's data)
-- [ ] **OPS-07**: CI pipeline: lint → typecheck → vitest → next build on every PR
+- [x] **OPS-07**: CI pipeline: lint → typecheck → vitest → next build on every PR
 
 ## v2 Requirements
 
@@ -194,7 +194,7 @@
 | OPS-04 | Phase 11 — Observability & Quality | Pending |
 | OPS-05 | Phase 11 — Observability & Quality | Pending |
 | OPS-06 | Phase 11 — Observability & Quality | Pending |
-| OPS-07 | Phase 1 — Foundation | Pending |
+| OPS-07 | Phase 1 — Foundation | Complete |
 
 **Coverage:**
 - v1 requirements: 62 total
