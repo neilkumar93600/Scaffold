@@ -114,6 +114,14 @@
     --radius-2xl: calc(var(--radius) * 1.8);
     --radius-3xl: calc(var(--radius) * 2.2);
     --radius-4xl: calc(var(--radius) * 2.6);
+    --color-bg: #0B0C0F;
+    --color-bg2: #111318;
+    --color-bg3: #181C22;
+    --color-teal: #00D4AA;
+    --color-amber: #F0A44A;
+    --color-text-primary: #F0EFE8;
+    --color-muted-text: #8A8D97;
+    --color-muted2: #5A5D66;
 }
 
 @layer base {
@@ -121,7 +129,7 @@
     @apply border-border outline-ring/50;
     }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-bg text-text-primary;
     }
   html {
     @apply font-sans;
