@@ -1,0 +1,61 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 2 * * *'  # nightly at 2am UTC
+
+jobs:
+  ci:
+    name: Lint, Typecheck, Test, Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        # Uses eslint directly — next lint is removed in Next.js 16
+        run: npm run lint
+
+      - name: Generate Next.js types
+        run: npx next typegen 2>/dev/null || true
+        continue-on-error: true
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Test
+        # --run flag is required in CI — without it Vitest enters watch mode and hangs
+        run: npm test -- --run
+
+      - name: Build
+        run: npm run build
+        env:
+          # Stub values so next build does not fail on missing real env vars at build time.
+          # These are NOT real credentials — safe to have in the workflow file.
+          NEXT_PUBLIC_SUPABASE_URL: 'https://stub.supabase.co'
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: 'stub-anon-key'
+          SUPABASE_SERVICE_ROLE_KEY: 'stub-service-role-key'
+          DATABASE_URL: 'postgresql://stub:stub@localhost:5432/stub'
+          NEXT_PUBLIC_SENTRY_DSN: 'https://stub@stub.ingest.sentry.io/0'
+          SENTRY_DSN: 'https://stub@stub.ingest.sentry.io/0'
+          NEXT_PUBLIC_POSTHOG_KEY: 'phc_stub'
+          NEXT_PUBLIC_POSTHOG_HOST: 'https://us.i.posthog.com'
+          NEXT_PUBLIC_APP_URL: 'https://stub.example.com'
+          UPSTASH_REDIS_REST_URL: 'https://stub.upstash.io'
+          UPSTASH_REDIS_REST_TOKEN: 'stub-token'
+          RESEND_API_KEY: 're_stub'
+          INNGEST_EVENT_KEY: 'stub-event-key'
+          INNGEST_SIGNING_KEY: 'stub-signing-key'
