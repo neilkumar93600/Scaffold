@@ -12,7 +12,7 @@ Scaffold is built from the ground up in 11 phases. The dependency chain flows fr
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation** - Database schema, Drizzle setup, Supabase project, CI/CD pipeline, plan limits config
+- [x] **Phase 1: Foundation** - Database schema, Drizzle setup, Supabase project, CI/CD pipeline, plan limits config (completed 2026-05-23)
 - [ ] **Phase 2: Auth & Onboarding** - GitHub + Google OAuth, 3-step onboarding, session persistence, CLI tokens
 - [ ] **Phase 3: Stack Module** - Stack CRUD, tool picker, manifest import, stack detail view
 - [ ] **Phase 4: Playbook System** - Built-in playbooks, run/step-toggle, fork, custom steps, sharing
@@ -247,7 +247,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 →
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 4/5 | In Progress|  |
+| 1. Foundation | 5/5 | Complete   | 2026-05-23 |
 | 2. Auth & Onboarding | 0/5 | Not started | - |
 | 3. Stack Module | 0/5 | Not started | - |
 | 4. Playbook System | 0/5 | Not started | - |
