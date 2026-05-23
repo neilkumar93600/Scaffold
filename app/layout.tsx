@@ -16,11 +16,11 @@ const fontMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Scaffold | Your Ultimate Launch OS',
+    default: 'Next.js SaaS Boilerplate & Launch OS | Scaffold',
     template: '%s | Scaffold',
   },
-  description: 'Stop rebuilding from scratch. Scaffold is a modern, modular Next.js application template with 120+ pre-built components to ship your ideas faster.',
-  keywords: ['Next.js', 'React', 'Tailwind CSS', 'SaaS Boilerplate', 'Launch OS', 'Supabase', 'Inngest'],
+  description: 'Stop rebuilding from scratch. Scaffold is the ultimate Next.js SaaS boilerplate with 120+ UI templates, Supabase auth, and Inngest. Ship smarter today. ✓',
+  keywords: ['Next.js SaaS boilerplate', 'Next.js Supabase starter kit', 'React launch OS', 'Next.js', 'SaaS template'],
   authors: [{ name: 'Neil' }],
   creator: 'Gary Soft',
   openGraph: {
