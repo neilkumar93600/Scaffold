@@ -131,26 +131,76 @@
 
 ## Traceability
 
-Populated during roadmap creation.
-
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| AUTH-01 – AUTH-06 | TBD | Pending |
-| STACK-01 – STACK-06 | TBD | Pending |
-| PLAY-01 – PLAY-09 | TBD | Pending |
-| TMPL-01 – TMPL-08 | TBD | Pending |
-| CONT-01 – CONT-03 | TBD | Pending |
-| INIT-01 – INIT-05 | TBD | Pending |
-| DECL-01 – DECL-04 | TBD | Pending |
-| TEAM-01 – TEAM-06 | TBD | Pending |
-| BILL-01 – BILL-08 | TBD | Pending |
-| OPS-01 – OPS-07 | TBD | Pending |
+| AUTH-01 | Phase 2 — Auth & Onboarding | Pending |
+| AUTH-02 | Phase 2 — Auth & Onboarding | Pending |
+| AUTH-03 | Phase 2 — Auth & Onboarding | Pending |
+| AUTH-04 | Phase 2 — Auth & Onboarding | Pending |
+| AUTH-05 | Phase 2 — Auth & Onboarding | Pending |
+| AUTH-06 | Phase 2 — Auth & Onboarding | Pending |
+| STACK-01 | Phase 3 — Stack Module | Pending |
+| STACK-02 | Phase 3 — Stack Module | Pending |
+| STACK-03 | Phase 3 — Stack Module | Pending |
+| STACK-04 | Phase 3 — Stack Module | Pending |
+| STACK-05 | Phase 3 — Stack Module | Pending |
+| STACK-06 | Phase 3 — Stack Module | Pending |
+| PLAY-01 | Phase 4 — Playbook System | Pending |
+| PLAY-02 | Phase 4 — Playbook System | Pending |
+| PLAY-03 | Phase 4 — Playbook System | Pending |
+| PLAY-04 | Phase 4 — Playbook System | Pending |
+| PLAY-05 | Phase 4 — Playbook System | Pending |
+| PLAY-06 | Phase 4 — Playbook System | Pending |
+| PLAY-07 | Phase 4 — Playbook System | Pending |
+| PLAY-08 | Phase 4 — Playbook System | Pending |
+| PLAY-09 | Phase 4 — Playbook System | Pending |
+| TMPL-01 | Phase 5 — Template Library UI | Pending |
+| TMPL-02 | Phase 5 — Template Library UI | Pending |
+| TMPL-03 | Phase 5 — Template Library UI | Pending |
+| TMPL-04 | Phase 5 — Template Library UI | Pending |
+| TMPL-05 | Phase 5 — Template Library UI | Pending |
+| TMPL-06 | Phase 5 — Template Library UI | Pending |
+| TMPL-07 | Phase 5 — Template Library UI | Pending |
+| TMPL-08 | Phase 5 — Template Library UI | Pending |
+| CONT-01 | Phase 6 — Template Content | Pending |
+| CONT-02 | Phase 6 — Template Content | Pending |
+| CONT-03 | Phase 6 — Template Content | Pending |
+| INIT-01 | Phase 7 — Project Init | Pending |
+| INIT-02 | Phase 7 — Project Init | Pending |
+| INIT-03 | Phase 7 — Project Init | Pending |
+| INIT-04 | Phase 7 — Project Init | Pending |
+| INIT-05 | Phase 7 — Project Init | Pending |
+| DECL-01 | Phase 8 — Decision Log | Pending |
+| DECL-02 | Phase 8 — Decision Log | Pending |
+| DECL-03 | Phase 8 — Decision Log | Pending |
+| DECL-04 | Phase 8 — Decision Log | Pending |
+| TEAM-01 | Phase 9 — Team Library | Pending |
+| TEAM-02 | Phase 9 — Team Library | Pending |
+| TEAM-03 | Phase 9 — Team Library | Pending |
+| TEAM-04 | Phase 9 — Team Library | Pending |
+| TEAM-05 | Phase 9 — Team Library | Pending |
+| TEAM-06 | Phase 9 — Team Library | Pending |
+| BILL-01 | Phase 10 — Billing & Plan Enforcement | Pending |
+| BILL-02 | Phase 10 — Billing & Plan Enforcement | Pending |
+| BILL-03 | Phase 10 — Billing & Plan Enforcement | Pending |
+| BILL-04 | Phase 10 — Billing & Plan Enforcement | Pending |
+| BILL-05 | Phase 10 — Billing & Plan Enforcement | Pending |
+| BILL-06 | Phase 10 — Billing & Plan Enforcement | Pending |
+| BILL-07 | Phase 10 — Billing & Plan Enforcement | Pending |
+| BILL-08 | Phase 10 — Billing & Plan Enforcement | Pending |
+| OPS-01 | Phase 11 — Observability & Quality | Pending |
+| OPS-02 | Phase 11 — Observability & Quality | Pending |
+| OPS-03 | Phase 11 — Observability & Quality | Pending |
+| OPS-04 | Phase 11 — Observability & Quality | Pending |
+| OPS-05 | Phase 11 — Observability & Quality | Pending |
+| OPS-06 | Phase 11 — Observability & Quality | Pending |
+| OPS-07 | Phase 1 — Foundation | Pending |
 
 **Coverage:**
 - v1 requirements: 62 total
-- Mapped to phases: 0 (pending roadmap)
-- Unmapped: 62 ⚠️
+- Mapped to phases: 62
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-05-23*
-*Last updated: 2026-05-23 after initial definition*
+*Last updated: 2026-05-23 — traceability populated after roadmap creation*
