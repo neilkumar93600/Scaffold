@@ -1,0 +1,64 @@
+{
+  "version": "1",
+  "project": {
+    "name": "Scaffold",
+    "description": "Launch OS for developers and founders"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(pnpm *)",
+      "Bash(git status)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push)",
+      "Bash(git checkout *)",
+      "Bash(git branch *)",
+      "Bash(node *)",
+      "Bash(ls *)",
+      "Bash(cat *)",
+      "Bash(mkdir *)",
+      "Bash(cp *)",
+      "Bash(mv *)",
+      "Bash(rm *)"
+    ],
+    "deny": [
+      "Bash(rm -rf /)",
+      "Bash(DROP TABLE *)",
+      "Bash(git push --force *)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash(git commit*)",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash .claude/hooks/pre-commit.sh"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash .claude/hooks/lint-on-save.sh"
+          }
+        ]
+      }
+    ]
+  },
+  "agents": {
+    "code-reviewer": ".claude/agents/code-reviewer.md",
+    "debugger": ".claude/agents/debugger.md",
+    "test-writer": ".claude/agents/test-writer.md",
+    "refactorer": ".claude/agents/refactorer.md",
+    "doc-writer": ".claude/agents/doc-writer.md",
+    "security-auditor": ".claude/agents/security-auditor.md"
+  }
+}

@@ -1,0 +1,479 @@
+{
+  "version": 1,
+  "skills": {
+    "audience-research": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "youtube/audience-research/SKILL.md",
+      "computedHash": "17743f4a90e52480ed52c8a9fa746aa85b1846dd30aa6083480a2a8300ea76cb"
+    },
+    "brain-dump": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "cowork/brain-dump/SKILL.md",
+      "computedHash": "779da2e9950546bdd77425002e0576d50021d61dfeeaca6763faa09e3baacf9a"
+    },
+    "buyer-persona": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "sales/buyer-persona/SKILL.md",
+      "computedHash": "f74bd5112c865902e7557ec98b92a4930752a4e3651c1b37bd4d5ba01b01d55e"
+    },
+    "call-debrief": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "sales/call-debrief/SKILL.md",
+      "computedHash": "f2cb70f706dc0192d65579d76502343a7a361bff0caa67483be03820eb43d256"
+    },
+    "carousels": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "cowork/carousels/SKILL.md",
+      "computedHash": "259e6ddf0254c639cbb24b323ca9f5bdcf5b42db4b5af58fe1404c652b8291a5"
+    },
+    "caveman": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/caveman/SKILL.md",
+      "computedHash": "536908fcfcb232600a5875aa85f1fd50fd13305e9d67379bcd95f07c8c916f3f"
+    },
+    "channel-audit": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "youtube/channel-audit/SKILL.md",
+      "computedHash": "c70e981b92e03edf1bbd5eb7f5fc74150fa6ba920953284dd6f4b0e466c34c47"
+    },
+    "channel-strategy": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "youtube/channel-strategy/SKILL.md",
+      "computedHash": "34c1629af1fccf51f244427c2eb4f3df5d9b131cae87440c65564dd71e219b31"
+    },
+    "cold-call": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "sales/cold-call/SKILL.md",
+      "computedHash": "2db8f5f7fbaa5cddd7cfacc80c2610640a7ce49ed0085b9c5364b0d01093bbea"
+    },
+    "cold-email": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "sales/cold-email/SKILL.md",
+      "computedHash": "581185357b1dc404ace42c168c4af039262bad0a67f642024a43f09cb647aa94"
+    },
+    "collab-outreach": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "youtube/collab-outreach/SKILL.md",
+      "computedHash": "8dc407d7838e05413f2a34c974e0ba03be8e013d6668b052ffa22ab3f4f8df18"
+    },
+    "competitive-intel": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "sales/competitive-intel/SKILL.md",
+      "computedHash": "ba36a89c282a01deb184557252b72fc27e00e8639f80634123b10f2209e8e2fb"
+    },
+    "content-calendar": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "youtube/content-calendar/SKILL.md",
+      "computedHash": "fbb38a5794e7d31be0b1963dfee9ed150da4ee4b56e88b1fdf6ec19073026320"
+    },
+    "content-repurpose": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "ceo/content-repurpose/SKILL.md",
+      "computedHash": "c76d837ebf7cde3165197868818b0819190b3e158bb3723a147cab107b25958d"
+    },
+    "contract-review": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "cowork/contract-review/SKILL.md",
+      "computedHash": "7fcefa85866a1d497b6c236d2c89637b0429b63b01ddcbe4e327674352e5c7f9"
+    },
+    "crafting-effective-readmes": {
+      "source": "softaworks/agent-toolkit",
+      "sourceType": "github",
+      "skillPath": "skills/crafting-effective-readmes/SKILL.md",
+      "computedHash": "cb11facecbb4a15f7ca6cfac2e740ac66798676c246c057879a71babb27c9a4f"
+    },
+    "dashboard-builder": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "cowork/dashboard-builder/SKILL.md",
+      "computedHash": "2d844ab8376f40eda8ab8bed02c297bf384623967a5edbe66d6de12489094b05"
+    },
+    "decision-journal": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "cowork/decision-journal/SKILL.md",
+      "computedHash": "3ce915b126d8369a84a899f430c74f26bda3a84c08b85e97a14afc60c55d2c33"
+    },
+    "deep-research": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "cowork/deep-research/SKILL.md",
+      "computedHash": "034c8a486dd8c5809bc10f988ef2181bfcdddc31a5d2fe2db3b93d3150ad635e"
+    },
+    "delegation": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "ceo/delegation/SKILL.md",
+      "computedHash": "12205a9b0bf2832e4d4120bb7f890e87ddee2739282d0119a44a007b7203f113"
+    },
+    "demo-script": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "sales/demo-script/SKILL.md",
+      "computedHash": "d6e4bbc1bfd5d3e9c978ed176eb440755adcb84ba71dc007d4f70e229250d729"
+    },
+    "description-seo": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "youtube/description-seo/SKILL.md",
+      "computedHash": "bc54daeefe5f7638ea3de7be782f02c5d9a1f2ec957f22c0c145cdf8d974582f"
+    },
+    "diagnose": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/diagnose/SKILL.md",
+      "computedHash": "1c3c85517ac42116fe5f2bfb5150f7b3e38ad23808e40b33fbb01f1afb611983"
+    },
+    "direct-mail": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "sales/direct-mail/SKILL.md",
+      "computedHash": "c61a0a3da0c4574dcc23d9de79c787b2c01fef84007e94a054e082c495b4c7fc"
+    },
+    "discovery-call": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "sales/discovery-call/SKILL.md",
+      "computedHash": "0fac4e52aba4af615e3b8c5cf5b73712bbeffae3bb1313d9cbf69db3b64057d4"
+    },
+    "end-screen-cta": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "youtube/end-screen-cta/SKILL.md",
+      "computedHash": "41008c407771e5a2d024fd7624bc9d65fafa18ffa31aa099a36d28f87e2f93d0"
+    },
+    "event-networking": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "sales/event-networking/SKILL.md",
+      "computedHash": "4f41c6092c0c93b94b7294dadf66d4b9099b758da78eb38716cf89cbcfcc40b6"
+    },
+    "expense-report": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "cowork/expense-report/SKILL.md",
+      "computedHash": "a87a105ea499632cd1e0df693c0d96ff6cc07f31abb5dc25aab7271b84e89962"
+    },
+    "explainer-infographic": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "cowork/explainer-infographic/SKILL.md",
+      "computedHash": "b20445e7865af32230e0d624973d356f29daf36ee49ba9bdf6e15a9a10620f67"
+    },
+    "financial-review": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "ceo/financial-review/SKILL.md",
+      "computedHash": "95539a528a2de8aa77690df6b78bd35ab32b3446135b63c973cfec78f6853ed5"
+    },
+    "forecast": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "sales/forecast/SKILL.md",
+      "computedHash": "bbd222f85d4e6bd6fca5e6fd111d62f6b6276439c1bb4dbd94def399cadf0587"
+    },
+    "grill-me": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/grill-me/SKILL.md",
+      "computedHash": "daf64ca15f4fa081a6747766db538e2dbd1131725ed4fcdd3d538dc62c7035ba"
+    },
+    "grill-with-docs": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/grill-with-docs/SKILL.md",
+      "computedHash": "59849672f8fce76b73055f6c9270236212e444c9aa63d02481bdf3cf788edb9f"
+    },
+    "handoff": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/handoff/SKILL.md",
+      "computedHash": "3fdffd9dce6fc3e9f9f756ba79d694c5f162e11c7e7fbc72a0958f204312e0b1"
+    },
+    "hiring": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "ceo/hiring/SKILL.md",
+      "computedHash": "98ad0e47ab383ff198d2cab75eb274a0f953a629577315458d506f9210fdf5db"
+    },
+    "hook-writing": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "youtube/hook-writing/SKILL.md",
+      "computedHash": "04084c437d5ea719fced7d70b3a1058a66ecd813193a18b6089661bbda74015a"
+    },
+    "idea-generation": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "youtube/idea-generation/SKILL.md",
+      "computedHash": "02bf5e679c253be6c605e74312a1a3436e70d7c0caaa7a15fa23feaa1ab8ac34"
+    },
+    "improve-codebase-architecture": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/improve-codebase-architecture/SKILL.md",
+      "computedHash": "5d9444ffe5c240f2d20081c42c547112e1b8c372375a14e4c98df4d94bde11e1"
+    },
+    "inbox-triage": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "cowork/inbox-triage/SKILL.md",
+      "computedHash": "eae393f6e9acb84da966e2b455fc6d168ac7c5ae139f861eaedfe599cb525878"
+    },
+    "invoice-generator": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "cowork/invoice-generator/SKILL.md",
+      "computedHash": "313e99c35732da6c0ec9c4d369d606b834585b32e4a7ecb7d34d804b9ff5d6b2"
+    },
+    "lead-research": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "sales/lead-research/SKILL.md",
+      "computedHash": "ac3d8b52d26ac481ffd5c55e76d2aea86b460c8492d571c67b5434317cd42f03"
+    },
+    "linkedin-outreach": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "sales/linkedin-outreach/SKILL.md",
+      "computedHash": "101a855d610198df5072ff95bf1711951ee7363fa2e49954f18d87efcb1ea781"
+    },
+    "meeting-prep": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "cowork/meeting-prep/SKILL.md",
+      "computedHash": "b2b328ae17a79e158976862bbed97947e41d62a821db1e8709d57000da635c77"
+    },
+    "morning-briefing": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "cowork/morning-briefing/SKILL.md",
+      "computedHash": "6a9d24ec78da0cd40fcfc3d4d0d8734bd64ad6b23877f8e947ac914640044a96"
+    },
+    "negotiation": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "sales/negotiation/SKILL.md",
+      "computedHash": "22ae9f81503b66ebdaf27e1a66030dd994eceed20c78b9d02199c472a6748d95"
+    },
+    "objection-handling": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "sales/objection-handling/SKILL.md",
+      "computedHash": "63f61d12cb1b3f16b7e29d63d53e325228b9870547cffaa35a59c350c18d2f94"
+    },
+    "one-on-ones": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "ceo/one-on-ones/SKILL.md",
+      "computedHash": "f21eeb2e7bc23cad529f2d2788bad2815c7077c5d7bcc3d3dfb394f7341aabf3"
+    },
+    "outbound-sequence": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "sales/outbound-sequence/SKILL.md",
+      "computedHash": "a404745c77e732d59a988422304474aa6cab193bc263356a49d7c243b638b4ad"
+    },
+    "personal-crm": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "cowork/personal-crm/SKILL.md",
+      "computedHash": "a51e85b7eaf693bb28a032fd7383ea92655fe0a56629ad5c3b5c3b23531b74cd"
+    },
+    "pipeline-review": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "sales/pipeline-review/SKILL.md",
+      "computedHash": "2e53299bcb57528868b3456b2bd865b6745c501d44f2bea3ec86f68e49da11f2"
+    },
+    "proposal-pricing": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "sales/proposal-pricing/SKILL.md",
+      "computedHash": "11922a1d3abc4c99ce10a91a751b14ab19feb9e8f6352c253b3e0c56926209c3"
+    },
+    "prospect-research": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "ceo/prospect-research/SKILL.md",
+      "computedHash": "e3860dd6b413d8ddf88a0675945f001743867db7b60eb8d5fb84b492f18d1328"
+    },
+    "prototype": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/prototype/SKILL.md",
+      "computedHash": "f52c019c3e0af2ad1807332d553b9ee7282a28c162d78cdeddd89dc8456b73ff"
+    },
+    "quarterly-review": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "ceo/quarterly-review/SKILL.md",
+      "computedHash": "2db0c96bee750913d0027e60375f96acb9e3b24775e4934f8d03baba802af91b"
+    },
+    "ralph": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "coding/ralph/SKILL.md",
+      "computedHash": "7f822de3aed27f029191ec88a7795607abdf30da3b77fea2290383ec5d88ae7a"
+    },
+    "referral-intro": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "sales/referral-intro/SKILL.md",
+      "computedHash": "c523703f3a03555f0247db95d8c6374d6ca65922b9f70a80c7d91b170f7f5873"
+    },
+    "retention-editing": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "youtube/retention-editing/SKILL.md",
+      "computedHash": "5df559219c530919f30cd10975ede1f23eca42a2cc30a38fa347f823f31d15d9"
+    },
+    "sales-comp": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "sales/sales-comp/SKILL.md",
+      "computedHash": "40f99d348f2db63a2ba344d134eff52348cb724778481cea2be892f274976dad"
+    },
+    "sales-context": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "sales/sales-context/SKILL.md",
+      "computedHash": "af5781363454f596119b77bc820f15e6636367fe4afa5823b963b45823831539"
+    },
+    "script-structure": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "youtube/script-structure/SKILL.md",
+      "computedHash": "124f269301ba59291dab596781d8305d944228a40bb79e46747055a3cf627a0a"
+    },
+    "setup-matt-pocock-skills": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "computedHash": "f686b246e95afeaeeb3ff21b0f9f2c1ab29b02958468170cc9802fb477508488"
+    },
+    "shape": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "coding/shape/SKILL.md",
+      "computedHash": "7d48b135543dbea24193802047865a9f148afb03584cf9087b53875d1bff0f77"
+    },
+    "slide-deck": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "cowork/slide-deck/SKILL.md",
+      "computedHash": "bc5551b08a05a05efe84d15e7b9459ecf316a02959211c5d04a4b8fe54686691"
+    },
+    "step-back": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "cowork/step-back/SKILL.md",
+      "computedHash": "7821098b2e95a816d36953fb9fd545735b6a0fb282daf66eb8ac0854cb7286b8"
+    },
+    "strategic-sparring": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "ceo/strategic-sparring/SKILL.md",
+      "computedHash": "a2d282ebd674ef36fe520ba48eacfac367f8e4702fe726b6504a127b4e1a27ba"
+    },
+    "tdd": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/tdd/SKILL.md",
+      "computedHash": "78b31b2120c5fe7aced1cebfd4c7c94acb0037fd4f89c83c67584414aa4173bd"
+    },
+    "thumbnail-design": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "youtube/thumbnail-design/SKILL.md",
+      "computedHash": "cc3afc370e38140cbb60c03052180a0aaf7fe0f393d286835c283cabad5bdccf"
+    },
+    "title-craft": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "youtube/title-craft/SKILL.md",
+      "computedHash": "3ba08b9c72a603ca739fbe508fb3baa6090292e527e81f61d9967257b0207667"
+    },
+    "to-issues": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/to-issues/SKILL.md",
+      "computedHash": "41915d1686991b0d3796eb0b52f3aa8e9021abc5f268d14e6dc62e95dbf8e044"
+    },
+    "to-prd": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/to-prd/SKILL.md",
+      "computedHash": "a80acb8760af6521a37ea4f079e617712fcaa800f8a766e247f815c5dabb20d2"
+    },
+    "triage": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/triage/SKILL.md",
+      "computedHash": "56ff15b41bbebfa4cb329d96150d9b297c1d919ce30784d883b8755b4bfd8e7e"
+    },
+    "video-analysis": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "youtube/video-analysis/SKILL.md",
+      "computedHash": "70bdf2ccb5fdaf88f344b794d4328bcb4011d887027434fef3000a2ba597a2bd"
+    },
+    "watch": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "general/watch/SKILL.md",
+      "computedHash": "968b974fe4bebad500966d39d2ca8af8188d24a6a3520b37d0ffa2d7c6c7519e"
+    },
+    "weekly-review": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "ceo/weekly-review/SKILL.md",
+      "computedHash": "3d4b3663cdd0dd1e2eff3d3bf760d6a809ac10c8a58a4b7544746a0cf9afb080"
+    },
+    "win-loss-analysis": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "sales/win-loss-analysis/SKILL.md",
+      "computedHash": "b8a586afd526fa479489fd6d3abda90d2191995df2253dad61e1ddaa956e611a"
+    },
+    "workflow-visualizer": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "cowork/workflow-visualizer/SKILL.md",
+      "computedHash": "d0bd4bbe811b30bb56e5966e0b29fe8ef440f86eb22146c2c505dffaf1e94b77"
+    },
+    "write-a-skill": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/write-a-skill/SKILL.md",
+      "computedHash": "3b58a16bde08f84ed490cd449ecdc40289216d660e070c485f53bc2d1ed2b843"
+    },
+    "youtube-context": {
+      "source": "TheCraigHewitt/skills",
+      "sourceType": "github",
+      "skillPath": "youtube/youtube-context/SKILL.md",
+      "computedHash": "ac6161e6f8399f5f136b62d2cba9aa7f3cb2e518eea2bfbfd987d553c9d85fea"
+    },
+    "zoom-out": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/zoom-out/SKILL.md",
+      "computedHash": "a8b8ed45609fdfa9f184d0c9f69326e43822a42eebea14db2792d777373de562"
+    }
+  }
+}
