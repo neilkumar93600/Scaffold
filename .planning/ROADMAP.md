@@ -36,14 +36,14 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Drizzle schema compiles and `pnpm db:push` applies migrations to Supabase without errors
   4. planLimits config exists and exports correct per-plan resource caps (Free: 3 projects, 15 templates)
   5. All environment variable slots are documented in `.env.example` with placeholder values
-**Plans**: TBD
+**Plans**: 5 plans
 
 Plans:
-- [ ] 01-01: Project scaffolding — Next.js 16 app directory, TypeScript config, Tailwind 4, path aliases
-- [ ] 01-02: Database foundation — Drizzle schema (all tables), migrations, Supabase RLS enable, db helpers
-- [ ] 01-03: Plan limits config — planLimits object, enforcePlanLimit middleware function, Zod plan types
-- [ ] 01-04: CI/CD pipeline — GitHub Actions: lint + typecheck + vitest + next build on PR
-- [ ] 01-05: Infrastructure wiring — Upstash Redis client, Inngest client, Sentry init, PostHog init, Resend client
+- [ ] 01-01-PLAN.md — Package installs, Drizzle + Vitest config, branded placeholder page, route stubs, /api/health, Inngest handler, .env.example
+- [ ] 01-02-PLAN.md — All 11 domain table schema files (users, teams, stacks, templates, playbooks, runs, decisions), barrel index, db singleton
+- [ ] 01-03-PLAN.md — planLimits static config, enforcePlanLimit function, PlanSchema Zod type, checkFeatureAccess helper
+- [ ] 01-04-PLAN.md — GitHub Actions CI workflow: lint → typecheck → vitest → next build (OPS-07)
+- [ ] 01-05-PLAN.md — Sentry (server + edge + client), PostHog (client + server), Resend, withSentryConfig in next.config.mjs
 
 ### Phase 2: Auth & Onboarding
 **Goal**: Users can sign in with GitHub or Google, complete onboarding, and stay logged in across sessions
