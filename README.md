@@ -9,11 +9,12 @@
 <br/>
 
 <p align="center">
-  <a href="#-project-overview"><b>Features</b></a> •
+  <a href="#-project-overview"><b>Overview</b></a> •
+  <a href="#-the-120-templates-library"><b>120+ Templates</b></a> •
+  <a href="#-core-features-deep-dive"><b>Features</b></a> •
   <a href="#-architecture--tech-stack"><b>Architecture</b></a> •
   <a href="#-getting-started"><b>Getting Started</b></a> •
-  <a href="#-plans--pricing"><b>Pricing</b></a> •
-  <a href="#-contribute"><b>Contribute</b></a>
+  <a href="#-plans--pricing"><b>Pricing</b></a>
 </p>
 
 [![Version](https://img.shields.io/badge/Version-1.0.0-00E6A1?style=for-the-badge&logo=rocket&logoColor=white)](#)
@@ -37,24 +38,75 @@
 
 ## 🚀 Project Overview
 
-Scaffold provides everything needed to go from idea to production reliably. It orchestrates your entire development workflow, translating saved stacks into functional projects.
+Scaffold provides everything needed to go from idea to production reliably. It orchestrates your entire development workflow by learning your preferred stack once and applying it automatically to every new project through a combination of **Memory**, **Guidance**, and **Automation**.
+
+<br/>
+
+## 📚 The 120+ Templates Library
+
+Scaffold comes with **120+ hand-curated, maintained starter templates**. Rather than giving you a monolithic boilerplate where you have to delete code you don't need, Scaffold's templates are modular and injected based *only* on the stack you specify. 
+
+Every template includes **Semantic Version Staleness Detection**—run via a weekly cron against npm/PyPI APIs—so you are immediately notified if a boilerplate is using outdated dependencies.
 
 <div align="center">
 
-| 🌟 Capability | 📝 Description | Status |
-|:---|:---|:---:|
-| 📖 **Launch Playbooks** | Structured checklists. Auto-completes steps based on your stack. | 🟢 |
-| 🧩 **Code Boilerplates** | 120+ starter templates with semantic version staleness detection. | 🟢 |
-| 🧠 **Stack Memory** | Remembers your toolchain. Imports directly from `package.json`. | 🟢 |
-| ⚡ **One-Click Init** | Generates fully-configured project skeletons in seconds. | 🟢 |
-| 📓 **Decision Log** | A searchable log of architectural decisions per user/team. | 🟢 |
-| 🤝 **Team Library** | Shared playbooks, templates, and stacks for your team. | 🟢 |
+| Category | Available Boilerplates & Snippets (Partial List) |
+|:---|:---|
+| 🔐 **Authentication** | Supabase Auth, Clerk, NextAuth.js, Firebase Auth, Magic Links, OAuth Helpers |
+| 💳 **Payments** | Stripe Checkout, LemonSqueezy, Paddle webhook handlers, Pricing Tables UI |
+| 📧 **Email & Comms** | Resend templates, SendGrid wrappers, React Email components, Transactional flows |
+| 🗄️ **Database & ORM** | Prisma schemas, Drizzle migrations, Supabase RLS policies, Mongoose setup |
+| 🚀 **CI/CD & DevOps** | GitHub Actions (Lint, Test, Preview, Deploy), GitLab CI, Dockerfiles, Vercel configs |
+| 📊 **Monitoring** | Sentry integration, Datadog tracing, PostHog analytics, Vercel Web Vitals |
+| 🎨 **UI/UX Components** | Tailwind CSS globals, Shadcn/UI setups, Framer Motion transitions, Dark Mode wrappers |
+| ⚖️ **Legal & Compliance** | standard Privacy Policy, Terms of Service, Cookie Consent banners, GDPR flows |
 
 </div>
 
 <br/>
 
-## 🛠 Architecture & Tech Stack
+## 🛠 Core Features Deep Dive
+
+Scaffold isn't just templates. It's an entire OS for launching software.
+
+<details open>
+<summary><b>📖 Launch Playbooks (Guidance)</b></summary>
+<br/>
+
+Structured, step-by-step checklists for every scenario: "New SaaS MVP", "Production Deploy", "Security Audit". 
+* **Smart Auto-completion**: If your saved stack includes `Stripe`, the playbook automatically checks off or injects the Stripe webhook steps.
+* **Forkable**: Copy built-in playbooks and modify them for your specific workflow.
+</details>
+
+<details open>
+<summary><b>🧠 Personal Stack Memory</b></summary>
+<br/>
+
+Define your preferred tools once (e.g., `Next.js` + `Supabase` + `Stripe` + `Resend`). 
+* **Auto-import**: Import your stack instantly from an existing `package.json` or `requirements.txt`.
+* **Team Sync**: Team Admins can lock the stack to enforce consistency across all developers.
+</details>
+
+<details open>
+<summary><b>⚡ One-Click Project Init (Automation)</b></summary>
+<br/>
+
+Given your saved stack, Scaffold generates a fully configured project structure in seconds via a background worker (`Inngest`).
+* **Outputs**: `.env.example`, `README.md`, config files, and complete folder structures perfectly tuned to your stack.
+</details>
+
+<details open>
+<summary><b>📓 Decision Log</b></summary>
+<br/>
+
+A searchable, structured log of architectural decisions. Prevent the same debates across projects.
+* **Records**: Title, context, chosen option, alternatives, rationale, and date.
+* **Search**: Full-text search powered by PostgreSQL `pg_trgm`.
+</details>
+
+<br/>
+
+## 🏗 Architecture & Tech Stack
 
 Scaffold is built as a **Modular Monolith** prioritizing speed, type-safety, and reliability. 
 
