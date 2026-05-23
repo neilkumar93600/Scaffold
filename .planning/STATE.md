@@ -55,6 +55,8 @@ Recent decisions affecting current work:
 - enforcePlanLimit accepts getCurrentCount callback so callers control the DB query
 - CI workflow uses npm (not pnpm) — actions/setup-node@v4 with npm cache, npm ci, npm run commands
 - Test step in CI uses npm test -- --run to pass --run flag through npm to Vitest (prevents watch mode)
+- timestamp({ withTimezone: true }) is the correct drizzle-orm 0.45.2 API — timestamptz does not exist
+- Sibling imports in schema files (from './users' not './index') prevent circular dependency chains
 
 ### Pending Todos
 
