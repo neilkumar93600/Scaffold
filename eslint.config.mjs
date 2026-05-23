@@ -12,6 +12,12 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // shadcn/ui auto-generated — never hand-edited per project conventions
+    "components/ui/**",
+    // shadcn hook — auto-generated, not hand-edited
+    "hooks/use-mobile.ts",
+    // Claude Code user-level skills — not project source
+    ".claude/**",
   ]),
 ]);
 
