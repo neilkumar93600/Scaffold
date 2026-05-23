@@ -1,13 +1,10 @@
 <div align="center">
 
-<img src="./public/logo.svg" width="150" height="150" alt="Scaffold Logo" />
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=00E6A1&height=200&section=header&text=Scaffold&fontSize=70&fontColor=ffffff" width="100%" />
+<img src="./public/logo.svg" width="150" height="150" alt="Scaffold Logo" style="margin-bottom: 20px;" />
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00E6A1&center=true&vCenter=true&width=500&lines=Stop+rebuilding+from+scratch;Ship+smarter,+every+time;Your+ultimate+Launch+OS)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00E6A1&center=true&vCenter=true&width=600&lines=Scaffold;Stop+rebuilding+from+scratch;Ship+smarter,+every+time;Your+ultimate+Launch+OS)](https://git.io/typing-svg)
 
 <br/>
 
