@@ -1,10 +1,16 @@
 <div align="center">
 
-<img src="./public/logo.svg" width="150" height="150" alt="Scaffold Logo" style="margin-bottom: 20px;" />
+<a href="#">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./public/logo-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./public/logo-light.svg">
+    <img alt="Scaffold Logo" src="./public/logo-light.svg" width="400" style="margin-bottom: 20px;">
+  </picture>
+</a>
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00E6A1&center=true&vCenter=true&width=600&lines=Scaffold;Stop+rebuilding+from+scratch;Ship+smarter,+every+time;Your+ultimate+Launch+OS)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00E6A1&center=true&vCenter=true&width=500&lines=Stop+rebuilding+from+scratch;Ship+smarter,+every+time;Your+ultimate+Launch+OS)](https://git.io/typing-svg)
 
 <br/>
 
