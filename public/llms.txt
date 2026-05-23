@@ -1,0 +1,16 @@
+# Scaffold
+Your Ultimate Launch OS.
+
+## Overview
+Stop rebuilding from scratch. Scaffold is a modern, modular Next.js application template with 120+ pre-built components to ship your ideas faster.
+
+## Features
+- Over 120+ pre-built template blocks.
+- Modular Monolith architecture.
+- Powered by Next.js, React, Tailwind CSS.
+- Secure Authentication via Supabase.
+- Background Jobs orchestrated by Inngest.
+- High-performance caching & rate-limiting with Upstash Redis.
+
+## Creator
+Created by Neil. Made by Gary Soft.
