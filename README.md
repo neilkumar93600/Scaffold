@@ -1,5 +1,8 @@
 <div align="center">
 
+<img src="./public/logo.svg" width="150" height="150" alt="Scaffold Logo" />
+<br/>
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=00E6A1&height=200&section=header&text=Scaffold&fontSize=70&fontColor=ffffff" width="100%" />
 
 <br/>
