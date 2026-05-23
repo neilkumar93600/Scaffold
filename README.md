@@ -2,9 +2,9 @@
 
 <a href="#">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./public/logo-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./public/logo-light.svg">
-    <img alt="Scaffold Logo" src="./public/logo-light.svg" width="400" style="margin-bottom: 20px;">
+    <source media="(prefers-color-scheme: dark)" srcset="./public/logos/logo-primary-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./public/logos/logo-light-bg.svg">
+    <img alt="Scaffold Logo" src="./public/logos/logo-light-bg.svg" width="400" style="margin-bottom: 20px;">
   </picture>
 </a>
 
