@@ -21,7 +21,7 @@
 [![License](https://img.shields.io/badge/License-MIT-00E6A1?style=for-the-badge&logo=open-source-initiative&logoColor=white)](#)
 [![Status](https://img.shields.io/badge/Status-Active-00E6A1?style=for-the-badge&logo=checkmarx&logoColor=white)](#)
 
-*Crafted with precision by **abd** | A **Gray Soft** Product*
+*Crafted with precision by **abd** | Made by **Gary Soft***
 
 <br/>
 
@@ -294,7 +294,7 @@ To report bugs or request features, please open an issue in our GitHub repositor
 
 ### 📜 License
 Released under the **MIT License**. <br/>
-© 2026 **Gray Soft**. All rights reserved.
+© 2026 **Gary Soft**. All rights reserved.
 
 <br/>
 
